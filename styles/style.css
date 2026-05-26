@@ -1,0 +1,178 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containerHeader{
+    background-color: #AB77FC;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius:  15px 15px 0px 0px ;
+    margin-bottom: 50px;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.logo img{
+    width: 80px;
+}
+.botonera{
+     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-right: 100px;
+   
+}
+.botonera a{
+    color: white;
+    background-color: #AB77FC;
+    border: none;
+}
+.containerPrimera{
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerPrimera img{
+   width: 650px;
+   height: 500px;
+   border-radius: 15px;
+   margin: auto;
+}
+.izquierdaContainerPrimera{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+}
+.botoneraContainerP{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 0px 0px 10px;
+}
+#btn1{
+    padding: 20px 40px 20px 40px;
+    border: none;
+    background-color: #AB77FC;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+#btn2{
+    padding: 20px 40px 20px 40px;
+    border:1px solid #AB77FC;
+    background-color: white;
+    color: #AB77FC;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#t1{
+    color: black;
+    font-size: 80px;
+    margin:0px 10px 10px 10px;
+}
+#t2{
+    color: #AB77FC;
+    font-size: 70px;
+    margin: 0px 10px 10px 10px;
+}
+#text1{
+    color: grey;
+    font-size: 30px;
+    margin: 30px 10px 10px 10px;
+}
+
+.tiraCentral{
+    display: flex;
+    align-items: center;
+    background-color: #f2ebff;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 200px;
+    gap: 100px;
+}
+.granoCafe{
+     display: flex;
+     align-items: center;
+     gap: 50px;
+}
+.granoCafe img{
+    height: 100px;
+    width: auto;
+    gap: 50px;
+}
+.corazon{
+     display: flex;
+     align-items: center;
+     gap: 50px;
+}
+.corazon img{
+    height: 100px;
+    width: auto;
+}
+.tazaCafe{
+     display: flex;
+     align-items: center;
+}
+.tazaCafe img{
+    height: 100px;
+    width: auto;
+}
+.tituloCentral{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card p{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background: #111827;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
