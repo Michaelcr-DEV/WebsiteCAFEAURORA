@@ -1,0 +1,53 @@
+body{
+    background:#111;
+    color:white;
+    font-family:Arial;
+}
+
+.contenedor{
+    width:300px;
+    margin:auto;
+}
+
+.ejercicio{
+    margin:40px 0;
+}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4{
+  
+    padding:15px;
+    margin-top:10px;
+    display:grid;
+    gap:10px;
+}
+
+.grid1{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid2{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid3{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid3 img{
+    width:100%;
+}
+
+.grid4{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,50px);
+}
+
+.grid1 div,
+.grid2 div,
+.grid4 div{
+    background:white;
+    height:30px;
+}
